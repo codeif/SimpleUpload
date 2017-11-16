@@ -45,7 +45,7 @@ SERVER_PREFIX   服务器文件路径的前缀
 
 以HTTPie为例::
 
-    http -f POST yldev.lankaifa.com:8000 r={your random string} path={local path} f@{local_path}
+    http -b -f POST yldev.lankaifa.com:8000 r={your random string} path={local path} f@{local_path}
 
 Virtual Studio Code
 --------------------
