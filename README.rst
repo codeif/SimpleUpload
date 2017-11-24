@@ -31,13 +31,13 @@ SERVER_PREFIX   服务器文件路径的前缀
 运行
 ----
 
-可以使用unicorn运行，安装unicorn::
+可以使用gunicorn运行，安装gunicorn::
 
-    pip install unicorn
+    pip install gunicorn
 
 启动::
 
-    gunicorn -b :8000 http_upload.server:app
+    gunicorn -b :8000 simple_upload.server:app
 
 
 上传文件
