@@ -37,7 +37,7 @@ SERVER_PREFIX   服务器文件路径的前缀
 
 启动::
 
-    gunicorn -b :8000 simple_upload.server:app
+    gunicorn -b :8000 simple_upload:app
 
 
 上传文件
